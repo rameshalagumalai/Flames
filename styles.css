@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  background-color: deeppink;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+form {
+  width: 20rem;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: "Lobster", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+input {
+  display: inline-block;
+  width: 100%;
+  padding: 0.3rem;
+}
+
+.text-pink {
+  color: deeppink;
+}
