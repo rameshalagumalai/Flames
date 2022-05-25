@@ -1,6 +1,7 @@
 body {
   display: flex;
   background-color: deeppink;
+  flex-direction: column;
   align-items: center;
   height: 100vh;
   margin: 0;
@@ -42,4 +43,18 @@ input {
 
 .text-pink {
   color: deeppink;
+}
+
+.link{
+  color: white;
+}
+
+a{
+  color: wheat;
+  font-size: 2rem;
+  font-family: 'Lobster', sans-serif;
+}
+
+a:hover{
+  color: gold;
 }
