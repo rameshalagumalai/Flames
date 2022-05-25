@@ -58,3 +58,32 @@ a{
 a:hover{
   color: gold;
 }
+
+.circle{
+  height: 20rem;
+  width: 20rem;
+  border-radius: 10rem;
+  position: absolute;
+  z-index: -1;
+}
+
+.circle-1{
+  left: 28em;
+  top: 20rem;
+  background-color: #1DB9C3;
+}
+
+.circle-2{
+  right: 28rem;
+  bottom: 25rem;
+}
+
+@media screen {
+  .circle-1{
+    left: 10rem;
+  }
+
+  .circle-2{
+    right: 10rem;
+  }
+}
